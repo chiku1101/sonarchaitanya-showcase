@@ -58,9 +58,19 @@
     --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     --shadow-glow: 0 0 40px hsl(var(--gradient-primary-start) / 0.3);
     
+    /* Section Background Colors */
+    --bg-hero: 240 10% 3.9%;
+    --bg-about: 245 15% 5%;
+    --bg-technologies: 250 20% 6%;
+    --bg-experience: 255 15% 4%;
+    --bg-projects: 260 20% 5%;
+    --bg-certifications: 240 15% 4%;
+    --bg-contact: 235 20% 5%;
+    
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bg: background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
